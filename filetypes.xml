@@ -1,0 +1,17 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping ext="mobileprovision" type="Native" />
+      <mapping ext="csv" type="Native" />
+      <mapping ext="cer" type="Native" />
+      <mapping pattern="ewrer" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="jljj" type="PLAIN_TEXT" />
+      <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping pattern="jjj" type="PLAIN_TEXT" />
+      <mapping ext="rc" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
