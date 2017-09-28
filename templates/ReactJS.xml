@@ -93,7 +93,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rfdn" value="ReactDOM.findDOMNode($END$);" description="React: ReactDOM.findDOMNode" toReformat="true" toShortenFQNames="true">
+  <template name="rfdn" value="ReactDOM.findDOMNode($END$);" description="React: ReactDOM.findDOMNode" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -167,7 +167,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="scu5" value="shouldComponentUpdate: function(nextProps, nextState, nextContext) {&#10;  $END$&#10;},&#10;" description="React: shouldComponentUpdate" toReformat="true" toShortenFQNames="true">
+  <template name="scu5" value="shouldComponentUpdate: function(nextProps, nextState, nextContext) {&#10;  $END$&#10;},&#10;" description="React: shouldComponentUpdate" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -178,7 +178,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="state" value="this.state.$END$" description="React: this.state.$END$" toReformat="true" toShortenFQNames="true">
+  <template name="state" value="this.state.$END$" description="React: this.state.$END$" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -247,37 +247,37 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="tsn" value="transitionName=&quot;$END$&quot;" description="React: transitionName" toReformat="true" toShortenFQNames="true">
+  <template name="tsn" value="transitionName=&quot;$END$&quot;" description="React: transitionName" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="tsa" value="transitionAppear={$END$}" description="React: transitionAppear" toReformat="true" toShortenFQNames="true">
+  <template name="tsa" value="transitionAppear={$END$}" description="React: transitionAppear" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="tse" value="transitionEnter={$END$}" description="React: transitionEnter" toReformat="true" toShortenFQNames="true">
+  <template name="tse" value="transitionEnter={$END$}" description="React: transitionEnter" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="tsl" value="transitionLeave={$END$}" description="React: transitionLeave" toReformat="true" toShortenFQNames="true">
+  <template name="tsl" value="transitionLeave={$END$}" description="React: transitionLeave" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="tset" value="transitionEnterTimeout={$END$}" description="React: transitionEnterTimeout" toReformat="true" toShortenFQNames="true">
+  <template name="tset" value="transitionEnterTimeout={$END$}" description="React: transitionEnterTimeout" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="tslt" value="transitionLeaveTimeout={$END$}" description="React: transitionLeaveTimeout" toReformat="true" toShortenFQNames="true">
+  <template name="tslt" value="transitionLeaveTimeout={$END$}" description="React: transitionLeaveTimeout" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="tsat" value="transitionAppearTimeout={$END$}" description="React: transitionAppearTimeout" toReformat="true" toShortenFQNames="true">
+  <template name="tsat" value="transitionAppearTimeout={$END$}" description="React: transitionAppearTimeout" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -612,5 +612,16 @@
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
+  </template>
+  <template name="rdf" value="import React, { Component } from 'react';&#10;import { reduxForm, Field } from 'redux-form';&#10;&#10;class $COMPONENT$ extends Component {&#10;    render() {&#10;        return (&#10;            &lt;div&gt;&lt;/div&gt;&#10;        );&#10;    }&#10;}&#10;&#10;$COMPONENT$ = reduxForm({&#10;    form: $END$,&#10;})($COMPONENT$);&#10;&#10;export default $COMPONENT$;" description="React: Redux Form wrapped component" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="crdf" value="import React, { Component } from 'react';&#10;import { connect } from 'react-redux';&#10;import { reduxForm, Field } from 'redux-form';&#10;&#10;class $COMPONENT$ extends Component {&#10;    render() {&#10;        return (&#10;            &lt;div&gt;&lt;/div&gt;&#10;        );&#10;    }&#10;}&#10;&#10;const mapStateToProps = state =&gt; {&#10;    return {}&#10;}&#10;&#10;$COMPONENT$ = reduxForm({&#10;    form: $END$,&#10;})($COMPONENT$);&#10;&#10;$COMPONENT$ = connect(mapStateToProps)($COMPONENT$);&#10;&#10;export default $COMPONENT$;" description="React: Redux-Form connected component" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
 </templateSet>
