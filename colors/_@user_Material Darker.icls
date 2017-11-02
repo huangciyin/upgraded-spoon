@@ -4,7 +4,7 @@
     <property name="created">2017-11-02T09:43:43</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.2.5.0.0</property>
-    <property name="modified">2017-11-02T09:58:58</property>
+    <property name="modified">2017-11-02T14:31:44</property>
     <property name="originalScheme">Material Darker</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -20,6 +20,7 @@
   <option name="CONSOLE_LINE_SPACING" value="1.6" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="c3e88d" />
+    <option name="ANNOTATIONS_COLOR" value="ffffff" />
     <option name="BORDER_LINES_COLOR" value="" />
     <option name="CARET_COLOR" value="ffcc00" />
     <option name="CARET_ROW_COLOR" value="181818" />
@@ -63,6 +64,7 @@
     <option name="SELECTION_FOREGROUND" value="fffbf7" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="4f6269" />
     <option name="TEARLINE_COLOR" value="303030" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="b2a0a" />
     <option name="WHITESPACES" value="616161" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="d9f5dd" />
   </colors>
