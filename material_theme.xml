@@ -3,9 +3,15 @@
     <option name="selectedTheme" value="DARKER" />
     <option name="highlightColor" value="80cbc4" />
     <option name="highlightColorEnabled" value="true" />
+    <option name="isMaterialDesign" value="false" />
     <option name="isCustomTreeIndentEnabled" value="true" />
     <option name="customTreeIndent" value="4" />
     <option name="accentColor" value="ffeb3b" />
+    <option name="useMaterialIcons" value="false" />
+    <option name="useProjectViewDecorators" value="false" />
+    <option name="statusBarTheme" value="false" />
+    <option name="isMaterialTheme" value="false" />
+    <option name="themedScrollbars" value="false" />
     <option name="defaultBackground" value="https://raw.githubusercontent.com/mallowigi/material-theme-jetbrains-eap/master/src/main/resources/themes/wall.jpg,60" />
   </component>
 </application>
